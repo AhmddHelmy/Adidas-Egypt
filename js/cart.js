@@ -1,4 +1,3 @@
-
 fetch("../shoes.json")
   .then((response) => response.text())
   .then((json) => (products = JSON.parse(json)))
@@ -59,7 +58,7 @@ fetch("../shoes.json")
          <!-- card right -->
         <div class = "product-content">
           <h2 class = "product-title">${name}</h2>
-          <a href = "../index.html" class = "product-link">visit adidas store</a>
+          <a href = "./index.html" class = "product-link">visit adidas store</a>
           <div class = "product-rating">
             <i class = "fas fa-star"></i>
             <i class = "fas fa-star"></i>
